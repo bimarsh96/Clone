@@ -1,0 +1,59 @@
+body{
+    margin:0px;
+   border:border-box;
+    font-family:Arial,  sans-serif;
+
+}
+
+.nav{
+    flex-direction: row;
+    border:3px solid black;
+    height:hug(78px);
+    width:Fixed(1920px);
+    background-color: white;
+    display:flex;
+    top:-2px;
+    justify-content: space-between;
+    padding: 16px 220px 16px 220px;
+    }
+.food {
+    color:orange;
+    
+   
+   
+}
+.deliver i {
+  color: orange;
+
+}
+
+
+
+.search i {
+    color:orange;
+  
+}
+
+ .login {
+ 
+  gap: 8px;
+   background-color: white ;
+  color: orange;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.login:hover {
+  background-color: rgb(255, 119, 0);
+} 
+
+
+header{
+width:1,920px;
+height:620px;
+top:76px;
+
+}
