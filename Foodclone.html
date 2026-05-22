@@ -1,131 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="stylingclone.css">
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FoodWagon</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="stylingclone.css">
 </head>
 <body>
-   <div class="top-nav">
+
+<nav class="top-nav">
   <div class="nav-left">
-    <i class="fa-solid fa-bus" style="color:orange" > </i>
-   <b style="color:orange"> FoodwaGon</b> 
-</div>
+    <i style="color: orange;" class="fa-solid fa-bus"></i>
+    <a class="logo" href="#" style="color: orange;">food<span>WaGon</span></a>
     <div class="deliver-to">
-     <span><b>Deliver to:</b><i class="fa-solid fa-location-dot"></i>
-        Current Location <b>Mohammadpur Bus Stand, Dhaka</b></span>
+   <span><b>Deliver to: <i class="fa-solid fa-location-dot"></i>Current Location <b>Mohammadpur Bus Stand, Dhaka</b></span>
     </div>
-    
-   <div class="container">
+  </div>
   <div class="nav-search">
-    <i class="fa-solid fa-magnifying-glass" ></i>
-    <input type="text" placeholder="Search Food">
-    <button class="btn-login">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input type="text" placeholder="Search Food...">
+      <button class="btn-login">
       <i class="fa-solid fa-user"></i>
-      <div>Login</div>
+      <span>Login</span>
     </button>
   </div>
-
   <div class="nav-right">
-  </div>
-  </div>
-  
-</div>
+ </div>
+</nav>
 
-<header class="hero">
-  
+
+<section class="hero">
   <div class="hero-content">
     <h1>Are you starving?</h1>
     <p>Within a few clicks, find meals that are accessible near you</p>
-    
-    <div class="mini">
-    <div class="delivery-tabs">
-      <button class="tab-btn active"><i class="fa-solid fa-motorcycle"></i> Delivery</button>
-      <button class="tab-btn"><i class="fa-solid fa-shopping-bag"></i> Pickup</button>
+
+    <div class="order-cart">
+      <div class="delivery-tabs">
+        <button class="tab-btn active"><i class="fa-solid fa-motorcycle"></i> Delivery</button>
+        <button class="tab-btn"><i class="fa-solid fa-shopping-bag"></i> Pickup</button>
+      </div>
+      <div class="hero-search">
+        <i class="fa-solid fa-location-dot"></i>
+        <input type="text" placeholder="Enter Your Address">
+        <button><i class="fa-solid fa-magnifying-glass"></i> Find Food</button>
+      </div>
     </div>
-    
-    <div class="hero-search">
-      <i class="fa-solid fa-location-dot" style="margin-left:16px; color:orange"></i>
-      <input type="text" placeholder="Enter Your Address">
-      
-       <button> <i class="fa-solid fa-magnifying-glass"></i>
-        Find Food</button>
-       
+
+    <div class="bowl">
+      <img src="bowl.jpg.png" alt="Bowl of food">
+    </div>
+
+  </div>
+</section>
+<!-- OFFERS -->
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">Find Food</h2>
+  </div>
+  <div class="offers-grid">
+    <div class="offer-card"><div class="offer-badge">15%<span> Off</span></div><h4>Greys Vage</h4><p>6 Days Remaining</p></div>
+    <div class="offer-card"><div class="offer-badge">10%<span> Off</span></div><h4>Greys Vage</h4><p>7 Days Remaining</p></div>
+    <div class="offer-card"><div class="offer-badge">25%<span> Off</span></div><h4>Greys Vage</h4><p>8 Days Remaining</p></div>
+    <div class="offer-card"><div class="offer-badge">20%<span> Off</span></div><h4>Greys Vage</h4><p>6 Days Remaining</p></div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section how-bg">
+  <h2 class="section-title" style="text-align:center">How does it work</h2>
+  <div class="steps-grid">
+    <div class="step-card">
+      <div class="step-icon"><i class="fa-solid fa-location-dot"></i></div>
+      <h4>Select location</h4>
+      <p>Choose the location where your food will be delivered.</p>
+    </div>
+    <div class="step-card">
+      <div class="step-icon"><i class="fa-solid fa-utensils"></i></div>
+      <h4>Choose order</h4>
+      <p>Check over hundreds of menus to pick your favorite food</p>
+    </div>
+    <div class="step-card">
+      <div class="step-icon"><i class="fa-solid fa-credit-card"></i></div>
+      <h4>Pay advance</h4>
+      <p>It's quick, safe, and simple. Select several methods of payment</p>
+    </div>
+    <div class="step-card">
+      <div class="step-icon"><i class="fa-solid fa-face-smile"></i></div>
+      <h4>Enjoy meals</h4>
+      <p>Food is made and delivered directly to your home.</p>
     </div>
   </div>
-  </div>
-   <img src="bow.pjp.png" alt="overlay" class="overlay-img"> 
-</header>
-<section class="remaining">
-
-
-</div>
 </section>
 
 
-<footer>
-  <div class="banner">
-    <div class="content">
-      <p>Are you ready to oder with<br/>
-              the best deals?</p>
-              <button>PROCEED TO  ORDER</button>
-</div>
 
-<div class="footer-top">
-<div class="all">
-  <div class="menu">
-    <div class="footer-col1">
+<footer>
+  <div class="footer-grid">
+    <div class="footer-col">
       <h4>Company</h4>
-      <ul>
-        <li><a href="#">About us</a></a>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Blog</a></li>
-      </ul>
+      <a href="#">About us</a>
+      <a href="#">Team</a>
+      <a href="#">Careers</a>
+      <a href="#">Blog</a>
     </div>
- <div class="footer-col1">
+    <div class="footer-col">
       <h4>Contact</h4>
-      <ul>
-        <li><a href="#">Help & Support</a></li>
-        <li><a href="#">Partner with us</a></li>
-        <li><a href="#">Ride with us</a></li>
-      </ul>
+      <a href="#">Help & Support</a>
+      <a href="#">Partner with us</a>
+      <a href="#">Ride with us</a>
+     
     </div>
-<div class="footer-col1">
+    <div class="footer-col">
       <h4>Legal</h4>
-      <ul>
-        <li><a href="#">Terms & Conditions</a></li>
-        <li><a href="#">Refund & Cancellation</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Cookie Policy</a></li>
-      </ul>
+      <a href="#">Terms &Conditions</a>
+      <a href="#">Refund & Cancellation</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Cookie Policy</a>
     </div>
-    
-      <div class="fot-Follow">FOLLOW US<br/><br/>
+    <div class="footer-col">
+      <h4>Follow Us</h4>
       <i class="fa-brands fa-instagram"></i>
       <i class="fa-brands fa-facebook"></i>
       <i class="fa-brands fa-twitter"></i><br/><br/>
-      <p><b>Receive exclusive offers in your mailbox</b></p>
-     <i class="fa-solid fa-envelope"></i>
-      <label for="email" id="email" value="Enter Your email"></label>
-      <input type="email" id="email" value="Enter Your email"> <button style="background-color: orange;"> Subscribe</button>
-  </div>
-  </div>
-      <div class="footer-bottom">
-        <div>
-      <p>All rights Reserved <i class="fa-regular fa-copyright"></i> 
-      <b>Your Company,2021</b> </>
-      Made with <i class="fa-solid fa-heart" style="color: rgb(255, 255, 0);"></i>
-       by  <b>Themewagon</b> </p>
-       </div>
+      <p style="font-size:13px;margin-bottom:12px;"><b>Receive exclusive offers in your mailbox</b></p><br/>
+      <div class="newsletter">
+        <input type="email" placeholder="Enter Your email">
+        <button>Subscribe</button>
+      </div>
     </div>
-</div>
-</div>
+  </div>
+  <div class="footer-bottom">
+    All rights Reserved <i class="fa-regular fa-copyright"></i> <span>Your Company</span>, 2021 &|& Made with <i class="fa-solid fa-heart" style="color: rgb(255, 255, 0);"></i> by Themewagon
+  </div>
 </footer>
-</body>
-</html>
-
-
+</body></html>
 
