@@ -1,0 +1,538 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodWagon — Food Delivery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<!-- ── TOP NAV ── -->
+<nav class="top-nav">
+  <a class="logo" href="#">
+    <i class="fa-solid fa-bus-simple logo-icon"></i>
+    <div class="logo-text">
+      <span class="logo-food">food</span>
+      <span class="logo-wagon">waGon</span>
+    </div>
+  </a>
+
+  <div class="deliver-address">
+    <span class="deliver-label">Deliver to:</span>
+    <div class="deliver-location">
+      <i class="fa-solid fa-location-dot"></i>
+      <span class="deliver-current">Current Location</span>
+      <span class="deliver-place">Mohammadpur Bus Stand, Dhaka</span>
+    </div>
+  </div>
+
+  <div class="nav-right">
+    <a class="nav-search-link" href="#">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <span class="nav-search-text">Search Food</span>
+    </a>
+    <div class="btn-login-wrap">
+      <i class="fa-solid fa-user"></i>
+      <span>Login</span>
+    </div>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <img class="hero-bg" src="yellowback.jpg.png" alt="Hero background">
+  <div class="hero-content">
+    <div class="hero-title">
+      <h1>Are you starving?</h1>
+      <p>Within a few clicks, find meals that are accessible near you</p>
+    </div>
+
+    <div class="order-card">
+      <div class="order-card-top">
+        <button class="tab-btn active">
+          <i class="fa-solid fa-motorcycle"></i> Delivery
+        </button>
+        <button class="tab-btn">
+          <i class="fa-solid fa-bag-shopping"></i> Pickup
+        </button>
+      </div>
+      <div class="order-card-bottom">
+        <div class="hero-search">
+          <div class="hero-search-field">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter Your Address">
+          </div>
+          <button class="hero-search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i> Find Food
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-bowl">
+    <img src="bowl.jpg.png" alt="Delicious food bowl">
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="section-header">
+  <div class="flash-grid">
+  <div class="flash-card">
+      <div class="flash-photo">
+        <img src="bowl2.jpg.png" alt="Food">
+        <div class="flash-discount">
+          <span class="num">15</span>
+          <div class="sym"><span class="pct">%</span><span class="off">Off</span></div>
+        </div>
+      </div>
+      <div class="flash-info">
+        <h4>Greys Vage</h4>
+        <div class="flash-badge"><span>6 Days Remaining</span></div>
+      </div>
+    </div>
+
+    <div class="flash-card">
+      <div class="flash-photo">
+        <img src="bitterguard.png" alt="Food">
+        <div class="flash-discount">
+          <span class="num">10</span>
+          <div class="sym"><span class="pct">%</span><span class="off">Off</span></div>
+        </div>
+      </div>
+      <div class="flash-info">
+        <h4>Greys Vage</h4>
+        <div class="flash-badge"><span>6 Days Remaining</span></div>
+      </div>
+    </div>
+
+    <div class="flash-card">
+      <div class="flash-photo">
+        <img src="cauli.png" alt="Food">
+        <div class="flash-discount">
+          <span class="num">25</span>
+          <div class="sym"><span class="pct">%</span><span class="off">Off</span></div>
+        </div>
+      </div>
+      <div class="flash-info">
+        <h4>Greys Vage</h4>
+        <div class="flash-badge"><span>7 Days Remaining</span></div>
+      </div>
+    </div>
+
+    <div class="flash-card">
+      <div class="flash-photo">
+        <img src="soup.png" alt="Food">
+        <div class="flash-discount">
+          <span class="num">20</span>
+          <div class="sym"><span class="pct">%</span><span class="off">Off</span></div>
+        </div>
+      </div>
+      <div class="flash-info">
+        <h4>Greys Vage</h4>
+        <div class="flash-badge"><span>8 Days Remaining</span></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="how-section">
+  <div class="section-header" style="justify-content:center; margin-bottom:71px">
+    <h2 class="section-title orange">How Does It Work</h2>
+  </div>
+  <div class="how-grid">
+    <div class="how-card">
+      <div class="how-icon-wrap">
+        <i class="fa-solid fa-location-dot"></i>
+      </div>
+      <div class="how-texts">
+        <h4>Select location</h4>
+        <p>Choose the location where your food will be delivered.</p>
+      </div>
+    </div>
+    <div class="how-card">
+      <div class="how-icon-wrap">
+        <i class="fa-solid fa-utensils"></i>
+      </div>
+      <div class="how-texts">
+        <h4>Choose order</h4>
+        <p>Check over hundreds of menus to pick your favorite food.</p>
+      </div>
+    </div>
+    <div class="how-card">
+      <div class="how-icon-wrap">
+        <i class="fa-solid fa-credit-card"></i>
+      </div>
+      <div class="how-texts">
+        <h4>Pay advanced</h4>
+        <p>It's quick, safe and simple. Select severalmethods of  payment.</p>
+      </div>
+    </div>
+    <div class="how-card">
+      <div class="how-icon-wrap">
+        <i class="fa-solid fa-face-smile"></i>
+      </div>
+      <div class="how-texts">
+        <h4>Enjoymeals</h4>
+        <p>Food is made and delivered directly to your home.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="section-header" style="justify-content:center; margin-bottom:88px">
+    <h2 class="section-title">Featured Restaurant</h2>
+  </div>
+  <div class="rest-grid">
+
+    <div class="rest-row">
+
+      <div class="rest-card">
+        <div class="rest-photo">
+          <img src="f1.png" alt="Restaurant">
+          <div class="rest-photo-badges">
+            <span class="badge-discount"><i class="fa-solid fa-tag"></i> 20% off</span>
+            <span class="badge-fast"><i class="fa-solid fa-bolt"></i> Fast</span>
+          </div>
+        </div>
+        <div class="rest-info">
+          <div class="rest-meta">
+            <div class="rest-logo"><img src="m1.png"></i></div>
+            <div class="rest-name-review">
+              <span class="rest-name">Foodworld</span>
+              <div class="rest-review">
+                <i class="fa-solid fa-star"></i><span>46</span>
+              </div>
+            </div>
+          </div>
+          <div class="rest-status busy"><span>Opens Tomorrow</span></div>
+        </div>
+      </div>
+
+      <div class="rest-card">
+        <div class="rest-photo">
+          <img src="f2.png" alt="Restaurant">
+          <div class="rest-photo-badges">
+            <span class="badge-discount"><i class="fa-solid fa-tag"></i>15% off</span>
+            <span class="badge-fast"><i class="fa-solid fa-bolt"></i> Fast</span>
+          </div>
+        </div>
+        <div class="rest-info">
+          <div class="rest-meta">
+            <div class="rest-logo"><img src="m2.png"></i></div>
+            <div class="rest-name-review">
+              <span class="rest-name">Pizzahub</span>
+              <div class="rest-review">
+                <i class="fa-solid fa-star"></i><span>40</span>
+              </div>
+            </div>
+          </div>
+          <div class="rest-status open"><span>Open tomorrow</span></div>
+        </div>
+      </div>
+
+      <div class="rest-card">
+        <div class="rest-photo">
+          <img src="f3.png" alt="Restaurant">
+          <div class="rest-photo-badges">
+            <span class="badge-discount"><i class="fa-solid fa-tag"></i>10% off</span>
+            <span class="badge-fast"><i class="fa-solid fa-bolt"></i> Fast</span>
+          </div>
+        </div>
+        <div class="rest-info">
+          <div class="rest-meta">
+            <div class="rest-logo"><img src="m3.png"></i></div>
+            <div class="rest-name-review">
+              <span class="rest-name">Donnuts hut</span>
+              <div class="rest-review">
+                <i class="fa-solid fa-star"></i><span>20</span>
+              </div>
+            </div>
+          </div>
+          <div class="rest-status open"><span>Open Now</span></div>
+        </div>
+      </div>
+
+      <div class="rest-card">
+        <div class="rest-photo">
+          <img src="f4.png" alt="Restaurant">
+          <div class="rest-photo-badges">
+            <span class="badge-discount"><i class="fa-solid fa-tag"></i> 15% off</span>
+            <span class="badge-fast"><i class="fa-solid fa-bolt"></i> Fast</span>
+          </div>
+        </div>
+        <div class="rest-info">
+          <div class="rest-meta">
+            <div class="rest-logo"><img src="m4.png"></i></div>
+            <div class="rest-name-review">
+              <span class="rest-name">Donuts hut</span>
+              <div class="rest-review">
+                <i class="fa-solid fa-star"></i><span>4.6</span>
+              </div>
+            </div>
+          </div>
+          <div class="rest-status open"><span>Open Now</span></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="rest-row">
+
+      <div class="rest-card">
+        <div class="rest-photo">
+          <img src="f5.png" alt="Restaurant">
+          <div class="rest-photo-badges">
+            <span class="badge-discount"><i class="fa-solid fa-tag"></i> 10% off</span>
+            <span class="badge-fast"><i class="fa-solid fa-bolt"></i> Fast</span>
+          </div>
+        </div>
+        <div class="rest-info">
+          <div class="rest-meta">
+            <div class="rest-logo"><img src="m5.png"></i></div>
+            <div class="rest-name-review">
+              <span class="rest-name">Ruby Tuesday</span>
+              <div class="rest-review">
+                <i class="fa-solid fa-star"></i><span>26</span>
+              </div>
+            </div>
+          </div>
+          <div class="rest-status open"><span>Open Now</span></div>
+        </div>
+      </div>
+
+      <div class="rest-card">
+        <div class="rest-photo">
+          <img src="f6.png" alt="Restaurant">
+          <div class="rest-photo-badges">
+            <span class="badge-discount"><i class="fa-solid fa-tag"></i>25% off</span>
+            <span class="badge-fast"><i class="fa-solid fa-bolt"></i> Fast</span>
+          </div>
+        </div>
+        <div class="rest-info">
+          <div class="rest-meta">
+            <div class="rest-logo"><img src="m6.png"></i></div>
+            <div class="rest-name-review">
+              <span class="rest-name">Kuakata Fried Chicken</span>
+              <div class="rest-review">
+                <i class="fa-solid fa-star"></i><span>53</span>
+              </div>
+            </div>
+          </div>
+          <div class="rest-status open"><span>Open Now</span></div>
+        </div>
+      </div>
+
+      <div class="rest-card">
+        <div class="rest-photo">
+          <img src="f7.png" alt="Restaurant">
+          <div class="rest-photo-badges">
+            <span class="badge-discount"><i class="fa-solid fa-tag"></i> 10% off</span>
+            <span class="badge-fast"><i class="fa-solid fa-bolt"></i> Fast</span>
+          </div>
+        </div>
+        <div class="rest-info">
+          <div class="rest-meta">
+            <div class="rest-logo"><img src="m7.png"></i></div>
+            <div class="rest-name-review">
+              <span class="rest-name">Red Square</span>
+              <div class="rest-review">
+                <i class="fa-solid fa-star"></i><span>45</span>
+              </div>
+            </div>
+          </div>
+          <div class="rest-status busy"><span>Opens at 12pm</span></div>
+        </div>
+      </div>
+
+      <div class="rest-card">
+        <div class="rest-photo">
+          <img src="f8.png" alt="Restaurant">
+          <div class="rest-photo-badges">
+            <span class="badge-discount"><i class="fa-solid fa-tag"></i> 10% off</span>
+            <span class="badge-fast"><i class="fa-solid fa-bolt"></i> Fast</span>
+          </div>
+        </div>
+        <div class="rest-info">
+          <div class="rest-meta">
+            <div class="rest-logo"><img src="m8.png"></i></div>
+            <div class="rest-name-review">
+              <span class="rest-name">Taco Bell</span>
+              <div class="rest-review">
+                <i class="fa-solid fa-star"></i><span>35</span>
+              </div>
+            </div>
+          </div>
+          <div class="rest-status open"><span>Open Now</span></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="display:flex;justify-content:center;margin-top:16px">
+      <button class="btn-proceed" style="width:178px; text-transform:none">
+        View All <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+<section class="food-cat-section">
+  <div class="section-header">
+    <h2 class="section-title">Search by Food</h2>
+    <a href="#" class="view-all">View All <i class="fa-solid fa-chevron-right"></i></a>
+  </div>
+  <div class="food-cat-grid">
+    <div class="cat-item">
+      <div class="cat-photo"><img src="pizza.jpg.png" alt="Breakfast"></div>
+      <span class="cat-name">Pizza</span>
+    </div>
+    <div class="cat-item">
+      <div class="cat-photo"><img src="burger.jpg.png" alt="Lunch"></div>
+      <span class="cat-name">Burger</span>
+    </div>
+    <div class="cat-item">
+      <div class="cat-photo"><img src="noodles.png" alt="Dinner"></div>
+      <span class="cat-name">Noodels</span>
+    </div>
+    <div class="cat-item">
+      <div class="cat-photo"><img src="2ndsandwich.png" alt="Snacks"></div>
+      <span class="cat-name">Sub-sandwich</span>
+    </div>
+    <div class="cat-item">
+      <div class="cat-photo"><img src="chowmien.png" alt="Dessert"></div>
+      <span class="cat-name">Chowmein</span>
+    </div>
+    <div class="cat-item">
+      <div class="cat-photo"><img src="steak.png" alt="Drinks"></div>
+      <span class="cat-name">Steak</span>
+    </div>
+  </div>
+</section>
+
+
+<section class="details-section">
+
+  <div class="detail-card">
+    <div class="detail-left">
+      <div>
+        <h3>Best deals <br>Crispy Sandwiches</h3>
+        <p>Enjoy the large size of sandwiches.Complete perfect slice of sandwiches.</p>
+      </div>
+      <button class="btn-proceed">
+        PROCEED TO ORDER <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+    <div class="detail-right">
+      <img src="sandwich.jpg.jpg" alt="Order">
+    </div>
+  </div>
+
+  <div class="detail-card reverse">
+ <div class="detail-left">
+      <div>
+        <h3>Celebrate parties with Fried Chicken</h3>
+        <p>Get the best fried chicken smeared with a lip smacking lemmon chilli flavor.Check out best deals for fried chicken</p>
+      </div>
+      <button class="btn-proceed">
+        Proceed to order <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+    <div class="detail-right">
+      <img src="friedchicken.jpg.png" alt="Delivery">
+    </div>
+   
+  </div>
+
+  <div class="detail-card">
+    <div class="detail-left">
+      <div>
+        <h3>Wanna eat hot % spicy Pizza?</h3>
+        <p>Pair up with a friend and enoy the hot and crispy pops.Try ot with the best deals</p>
+      </div>
+      <button class="btn-proceed">
+        EXPLORE MENUS <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+    <div class="detail-right">
+      <img src="pizza.jpg.png" alt="Explore">
+    </div>
+  </div>
+
+</section>
+
+<!-- ── CTA ── -->
+<section class="cta-section">
+  <img class="cta-bg" src="clt.jpg.jpg" alt="CTA background">
+  <div class="cta-content">
+    <h2>Are you ready to order with the best deals?</h2>
+    <button class="btn-cta">
+      PROCEED TO ORDER <i class="fa-solid fa-chevron-right"></i>
+    </button>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#">About us</a>
+      <a href="#">Team</a>
+      <a href="#">Careers</a>
+      <a href="#">Blog</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="#">Help & Support</a>
+      <a href="#">Partner with us</a>
+      <a href="#">Ride with us</a>
+     
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <a href="#">Terms &Conditions</a>
+      <a href="#">Refund & Cancellation</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Cookie Policy</a>
+    </div>
+    <div class="footer-col">
+      <h4>Follow Us</h4>
+      <div style="display: flex; gap: 12px; margin-bottom: 30px;">
+        <i class="fa-brands fa-instagram"></i> 
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+      <p style="margin: 0 0 20px 0;">Receive exclusive offers in your mailbox</p>
+      <div class="newsletter">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" placeholder="Enter Your email" >
+        <button>Subscribe</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-rights-left">
+      All rights Reserved <i class="fa-regular fa-copyright"></i> <strong>Your Company</strong>, 2021
+    </div>
+    <div class="footer-made">
+      Made with <i class="fa-solid fa-heart"></i> by <strong>Themewagon</strong>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
